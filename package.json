@@ -1,7 +1,7 @@
 {
-  "name": "vue-basic-template",
+  "name": "vue_trivia",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,6 +13,7 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "axios": "^1.5.1",
     "vue": "^3.2.37",
     "vue-router": "^4.1.5"
   },
