@@ -29,7 +29,7 @@ const handleAnswer = (points) => {
   showNotification.value = true
   setTimeout(() => {
     changeScore(points)
-    router.push('/')
+    router.push('/vue_trivia/')
   }, 1000)
 }
 
