@@ -33,7 +33,6 @@ const handleAnswer = (points) => {
   }, 1000)
 }
 
-
 onMounted(async () => {
   question.value = await api.getQuestion(route.params.id)
   answers.value.push({
